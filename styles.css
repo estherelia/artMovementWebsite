@@ -1,0 +1,163 @@
+/* Styles for Outsider Art Website */
+
+header {
+	text-align: left;
+	font-family: sans-serif;
+	color: black;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header h1 {
+	color: black;
+	text-align: left;
+	font-size: 2.5em;
+}
+
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	color: orange;
+}
+
+/* 
+nav header a:hover {
+	color: orange;
+}
+ */
+
+
+
+nav ul {
+	list-style-type: none;
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 1em;
+	margin: 1.5em;
+
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: left;
+	padding: 1em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+	
+footer a {
+	text-decoration: none;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 4em;
+	text-align: center;
+}
+
+.homepage {
+	background-image: url("pictures/9.jpg");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.social {
+	width: 3em;
+	margin: 1em;
+}
+
+.icons {
+	position: right;
+}
+
+.outsiderart {
+	font-size: 2em;
+	display: block;
+	font-family: sans-serif;
+	color: white;
+	position: absolute;
+	top: 40vh;
+	width: 100%;
+	text-align: center;
+}
+
+.outsiderart h1 {
+	color: white;
+	text-align: center;
+}
+
+.pictures {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+}
+
+.pictures img {
+/* 
+	width: 25em;
+	margin: auto;
+ */
+	margin: 1em;
+	align-self: center;
+	width: 25%;
+}
+
+.galleryheading {
+	background-image: url("pictures/headinggallery.jpg");
+	size: 100%;
+}
+
+.historyheading {
+	background: url("pictures/headinghistory.jpg");
+}
+
+
+.historycontent {
+	margin: 1em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.historycontent p {
+	width: 600px;
+	font: sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	color: rgba(22,92,177,1);
+}
+
+.historycontent img {
+	width: 600px;
+	align-self: center;
+	margin: 2em;
+}
+
+
+/* 
+
+For modifying site for iphone
+
+@media only screen and (max-width: 320px) {
+	
+	h1 {
+		font-size: 1em;
+	}
+	
+}
+ */
+
+
+
